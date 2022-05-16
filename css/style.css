@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    display: relative;
+    text-align: center;
+    /* background-color: #ffffff; */
+    margin: 0;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.4);
+    
+      
+  }
+
+.logo img {
+    float: left;
+    margin-top: 6px;
+    margin-left: 70px;
+    height: 30px;
+
+
+    
+   
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 10px 100px 10px 400px;
+    margin: 0;
+    list-style: none;
+    
+}
+
+.link_menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+
+
+
+.promo {
+    min-height: 600px;
+    background: url('../icons/main_page.jpg') center center/cover no-repeat; 
+    
+}
+
+.promo .promo_text {
+    font-weight: 600;
+    line-height: 60px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(82, 0, 0);
+    padding-top: 250px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.royal .family_descr {
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 160px;
+    text-transform: uppercase;
+}
+
+.royal img {
+    
+    max-width: 250px;
+}
+.royal .text_descr {
+    font-family: Macondo;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 160px;
+
+    
+}
+
+.card_descr {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.table_container {
+    margin-top: 160px;
+}
+
+.table_container .table {
+    text-align: center;
+}
+
+.information {
+    display: block;
+    height: 500px;
+    margin-top: 160px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
